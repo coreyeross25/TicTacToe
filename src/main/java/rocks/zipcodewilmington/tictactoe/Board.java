@@ -4,8 +4,8 @@ package rocks.zipcodewilmington.tictactoe;
 
 public class Board {
 
-    private int size = 3;
-    private char[][] board;
+    public int size = 3;
+    public char[][] board;
 
     public Board(Character[][] matrix) {
         this.board = new char[size][size];
